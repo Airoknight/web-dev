@@ -7,6 +7,10 @@ h1{
 .three{
     color:antiquewhite;
 }
+body{
+background-color: rgb(33, 32, 32);
+color:aliceblue;
+}
 .nav{
     text-align:center;
     border-style: solid;
@@ -25,5 +29,37 @@ h1{
 }
 
 .nav a:hover{
+    color:rgb(255, 85, 0);
+}
+
+.ucard{
+    border:0.1rem solid black;
+    background-color: rgb(64, 66, 66);
+    width: 350px;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top:1rem;
+    margin-left: auto;
+    margin-right:auto;
+    overflow:hidden;
+    color:rgb(146, 214, 10);
+    box-shadow: rgba(230, 230, 235, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.ucard img{
+    width:100%;
+}
+
+.ucard button{
+    background-color: black;
+    color:aliceblue;
+    border-radius: 1rem;
+    color:rgb(146, 214, 10);
+    padding: 0.8rem;
+}
+
+.ucard button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 41, 41);
     color:rgb(255, 85, 0);
 }
