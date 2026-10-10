@@ -51,15 +51,17 @@ color:aliceblue;
 }
 
 .ucard button{
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     color:aliceblue;
     border-radius: 1rem;
     color:rgb(146, 214, 10);
     padding: 0.8rem;
+    margin: 0.3rem;
+    width:40%;
 }
 
 .ucard button:hover{
     cursor: pointer;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(8, 7, 7);
     color:rgb(255, 85, 0);
 }
